@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('password')->nullable();
             $table->string('provider')->nullable();
             $table->string('provider_id')->nullable();
+            $table->string('user_type');
             $table->text('provider_token')->nullable();
             $table->rememberToken();
             $table->timestamps();

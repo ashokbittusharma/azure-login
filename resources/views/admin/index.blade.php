@@ -5,7 +5,7 @@
 <header role="banner">
     <h1>Admin Panel</h1>
     <ul class="utilities">
-      {{-- <li class="users"><a href="#">My Account</a></li> --}}
+      <li class="users"><a href="javascript:void(0)">{{$name}}</a></li>
       <li class="logout warn">
         <form action="{{ route('logout') }}" method="POST">
             @csrf

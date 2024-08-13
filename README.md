@@ -19,3 +19,47 @@ Run compoer
 composer install
 ```
 
+copy .env.example in .env
+
+```bash
+cp .env.example .env
+```
+
+Add database detail in .env file
+
+DB_CONNECTION=
+DB_HOST=
+DB_PORT=
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+
+Add Azure AD credentials in .env file
+
+AZURE_CLIENT_ID=
+AZURE_CLIENT_SECRET=
+AZURE_REDIRECT_URI=
+AZURE_TENANT_ID=
+
+Run migration
+
+```bash
+php artisan migrate
+```
+
+Generate the Application Encryption Key
+
+```bash
+php artisan key:generate
+```
+
+Vite manifest run commands
+
+```bash
+npm i
+```
+
+```bash
+npm run dev
+```
+

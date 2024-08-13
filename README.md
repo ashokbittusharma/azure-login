@@ -28,17 +28,25 @@ cp .env.example .env
 Add database detail in .env file
 
 DB_CONNECTION=
+
 DB_HOST=
+
 DB_PORT=
+
 DB_DATABASE=
+
 DB_USERNAME=
+
 DB_PASSWORD=
 
 Add Azure AD credentials in .env file
 
 AZURE_CLIENT_ID=
+
 AZURE_CLIENT_SECRET=
+
 AZURE_REDIRECT_URI=
+
 AZURE_TENANT_ID=
 
 Run migration
